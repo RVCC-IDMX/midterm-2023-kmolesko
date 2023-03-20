@@ -1,14 +1,86 @@
 
 
-
-
-
-
 body {
-font-family: "Yanone Kaffeesatz"
+font-family: "Yanone Kaffeesatz"; 
+text-align: center;
+background-color: rgb(255, 255, 255);
+}
+
+body{
+font-size:17pt;
+}
+h1,h2,h3,h4, h5, h6 {
+    font-family:"Rubik Mono One"
+ }
+
+ h1 {font-size:50pt;
+ }
+ 
+
+
+/* h4, h5, h6, {
+    font-family: "Rubik"
+}*/
+
+img {
+    max-width=100%
+}
+
+h5 {
+    border: 2px solid rgb(0,0,0);
 
 }
 
+#reviews {
+    border: 2px solid rgb(0,0,0);
+    padding: 1em;
 
-h1,h2,h3,h4,h5,h6 {
-    font-family:"Rubik Mono One" }
+}
+    
+
+h1 {
+text-shadow:2px 5px rgba(0,0,0,0.2);
+
+}
+
+p, li {color: }
+
+#sites {
+   
+    padding: 1em;
+    background-image: linear-gradient(to bottom, white, rgb(48, 48, 255));
+}
+
+div {
+    display:inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#ddiv {
+    color:rgb(48, 48, 255)
+}
+
+/* body{
+    background-image: linear-gradient(to bottom, white, rgb(171, 171, 246));}*/
+
+ul li:nth-child(2n+1){
+    color:rgb(255, 255, 255);
+}
+
+ul li:nth-child(even){
+    color:rgb(48, 48, 255)
+}
+
+footer{
+    padding: 1em;
+    background-image: linear-gradient(to bottom, white, rgb(48, 48, 255));
+}
+
+#gallery {
+    align-items: center;
+    text-align: center;
+    /*grid-template-columns: 1 fr 1 fr;
+    column-gap: 5px;*/
+
+}
